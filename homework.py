@@ -21,13 +21,13 @@
 # talaba = {"Sobir","Bobur","Johon"}
 # print(talabalar)
 # print(talaba)
-# umuiy_talabalar = talabalar.union(talaba)
+# umuiy_talabalar = talabalar.update(talaba)
 # print(umuiy_talabalar)
 
 # # 5
 # talabalar = {"Ali","Suhrob","Umar"}
 # keyingi_talabalar = {"Sobir","Bobur","Johon"}
-# hammasi = talabalar.update(keyingi_talabalar)
+# hammasi = talabalar.union(keyingi_talabalar)
 # print(hammasi)
 
 # # 6
