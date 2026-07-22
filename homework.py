@@ -16,15 +16,15 @@
 # talabalar.remove("Hasan")
 # print(talabalar)
 
-# # 4
-# talabalar = {"Ali","Suhrob","Umar"}
-# talaba = {"Sobir","Bobur","Johon"}
-# print(talabalar)
-# print(talaba)
-# umuiy_talabalar = talabalar.update(talaba)
-# print(umuiy_talabalar)
+# 4
+talabalar = {"Ali","Suhrob","Umar"}
+talaba = {"Suhrob","Bobur","Johon"}
+print(talabalar)
+print(talaba)
+umuiy_talabalar = talabalar.intersection(talaba)
+print(umuiy_talabalar)
 
-# # 5
+# 5
 # talabalar = {"Ali","Suhrob","Umar"}
 # keyingi_talabalar = {"Sobir","Bobur","Johon"}
 # hammasi = talabalar.union(keyingi_talabalar)
